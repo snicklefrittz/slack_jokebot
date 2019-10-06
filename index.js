@@ -2,14 +2,14 @@ const SlackBot = require('slackbots');
 const axios = require('axios');
 
 const bot = new SlackBot({
-  token: 'xoxb-YOUR-OWN-TOKEN',
+  token: 'xoxb-770603096066-785194696768-suVFYpgL7rLZqWDXtEwCiaPY',
   name: 'jokebot'
 });
 
 // Start Handler
 bot.on('start', () => {
   const params = {
-    icon_emoji: ':smiley:'
+    icon_emoji: ':bender:'
   };
 
   bot.postMessageToChannel(
